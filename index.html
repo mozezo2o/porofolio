@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main Template CSs File -->
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- small screen -->
+    <link rel="stylesheet" href="css/meadi.css" />
+    <!-- Render all elements normally  -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- Font Icon libarary -->
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <!-- Font Famliy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mohamed Abd Elaziz | Portfolio</title>
+  </head>
+  <body>
+    <header class="header" id="home" data-section="section">
+      <div class="container">
+        <nav class="nav-bar">
+          <ul>
+            <li><a href="#home" class="nav-link">home</a></li>
+            <li><a href="#about" class="nav-link">about</a></li>
+            <li><a href="#skills" class="nav-link">skills</a></li>
+            <li>
+              <a href="#projects" class="nav-link">projects</a>
+            </li>
+            <li><a href="#contact" class="nav-link">contact</a></li>
+          </ul>
+        </nav>
+        <div class="info">
+          <h1 class="name"></h1>
+          <p>
+            Based in Cairo. <span> frontend developer</span>. contact with me
+            <a href="mailto:zezoom484@gmail.com "
+              ><i class="fa-solid fa-envelope"></i
+            ></a>
+          </p>
+          <div class="icons">
+            <a
+              href="https://www.linkedin.com/in/mohamed-abdelaziz-701a54203/"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="https://github.com/mozezo2o" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="down">
+          <a href="#about" data-arrow="about"
+            ><i class="fa-solid fa-circle-chevron-down"></i
+          ></a>
+        </div>
+      </div>
+    </header>
+    <section id="about" data-section="section">
+      <div class="container">
+        <div class="about-img"><img src="./img/personal-pic.jpg" alt="" /></div>
+        <div class="details">
+          <div class="info">
+            <h3>About Me</h3>
+            <p>I am Mohammed. I am a junior front-end developer</p>
+          </div>
+          <div class="contact-datails">
+            <div class="details-info">
+              <h3>Contact Details</h3>
+              <span>Mohamed</span>
+              <span>Cairo Egypt,</span>
+              <span>01032004554</span>
+            </div>
+            <div class="download">
+              <a href="myresume.pdf"
+                ><i class="fa-solid fa-download"></i> Download Resume</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="skills-section container"
+      id="skills"
+      data-section="section"
+    >
+      <h4>skills</h4>
+      <div class="skills">
+        <h5>My Programming Language Proficiency</h5>
+        <div class="html">
+          <span>html</span>
+          <div><span></span></div>
+        </div>
+        <div class="css">
+          <span>css</span>
+          <div><span></span></div>
+        </div>
+        <div class="js">
+          <span>javascript</span>
+          <div><span></span></div>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section" id="projects" data-section="section">
+      <div class="container">
+        <h3>check out some of my work</h3>
+        <div class="projects-type">
+          <h4>Projects</h4>
+          <div class="projects">
+            <div class="project-links">
+              <img src="./img/project1.jpg" alt="" />
+              <div class="project-info">
+                <a
+                  href="https://mozezo2o.github.io/leon-store/"
+                  target="_blank"
+                  target="_blank"
+                  ><i class="fa-regular fa-eye"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <img src="./img/project2.jpg" alt="" />
+              <div class="project-info">
+                <a
+                  href="https://mozezo2o.github.io/html-and-css-landing-page/"
+                  target="_blank"
+                  ><i class="fa-regular fa-eye"></i
+                ></a>
+              </div>
+            </div>
+
+            <div class="project-links">
+              <img src="./img/project3.jpg" alt="" />
+              <div class="project-info">
+                <a
+                  href="https://mozezo2o.github.io/html-css-js-landing-page/"
+                  target="_blank"
+                  ><i class="fa-regular fa-eye"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact" data-section="section">
+      <div class="container">
+        <div class="contact-icon">
+          <i class="fa-solid fa-envelope"></i>
+          <p>Get in touch with me!</p>
+        </div>
+        <div class="your-information">
+          <form action="">
+            <div>
+              <label for="name">name <span>*</span></label>
+              <input type="text" name="name" id="name" required />
+            </div>
+
+            <div>
+              <label for="email">email <span>*</span></label>
+              <input type="email" name="email" id="email" required />
+            </div>
+            <div>
+              <label for="subject">subject </label>
+              <input type="text" name="subject" id="subject" />
+            </div>
+            <div>
+              <label for="message">message <span>*</span></label>
+              <textarea name="message" id="message" required></textarea>
+            </div>
+            <input type="submit" value="submit" />
+          </form>
+          <!-- <div class="icons">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div> -->
+          <div class="contact-datails">
+            <div class="details-info">
+              <h3>Address and Phone</h3>
+              <span>Mohamed Abdelaziz</span>
+              <span>Cairo Egypt,</span>
+              <span>01032004554</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <a href="#home" data-arrow="home">
+          <i class="fa-solid fa-circle-chevron-down"></i>
+        </a>
+        <div class="icons">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href=""><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </section>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
